@@ -113,6 +113,83 @@ function oyoqlar(tovuq, qoy, sigir) {
 }
 console.log(oyoqlar(2,3,5));
 
+function  and(a,b){
+    return a&&b;
+}
+console.log(and( true, true));
 
 
+function tengMi(x, y) {
+    return x === y;
+}
+console.log(tengMi(4,9));
+
+
+function futbolOchko(yutishlar, duranglar,
+maglubiyatlar) {
+    return yutishlar*3+duranglar*1+maglubiyatlar*0
+}
+console.log(futbolOchko(3, 4, 2));
+
+function sekundlar(soat, minut) {
+    return soat*3600+minut*60
+}
+console.log(sekundlar(1, 3));
+console.log(sekundlar(2, 0));
+console.log(sekundlar(0, 0));
+
+
+function checkEquality(x, y) {
+    return x === y;
+}
+
+function tengMi(x, y) {
+    return checkEquality(x, y);
+}
+console.log(checkEquality(1, true));
+
+const arrowFunc=(son1)=>{
+    return son1
+}
+console.log(arrowFunc(4));
+console.log(arrowFunc("3"));
+console.log(arrowFunc(true));
+
+
+
+function frameSoni(minut, frame) {
+    return minut*60*frame
+}
+console.log(frameSoni(1,1));
+console.log(frameSoni(10, 1));
+
+
+function calc(str) {
+    return eval(str);
+}
+console.log(calc("23+4"));
+console.log(calc("45-15"));
+
+
+function teng10(a, b) {
+    return a === 10 || b === 10 || a + b === 10;
+}
+console.log(teng10(4,6));
+console.log(teng10(5,6));
+
+function litrMasofa(km) {
+    return Math.max(km*10, 100)
+}
+console.log(litrMasofa(3));
+
+function fun(a,b){
+    return Math.max(a,b)
+}
+console.log(fun(66,5));
+console.log(fun(-1,6));
+
+function arr(x, y) {
+    return [x,y]
+}
+console.log(arr(5,7));
 
