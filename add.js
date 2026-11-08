@@ -193,3 +193,49 @@ function arr(x, y) {
 }
 console.log(arr(5,7));
 
+function tengStrings(str1, str2) {
+    return str1.length === str2.length;
+}
+console.log(tengStrings("AB", "CD"));
+console.log(tengStrings("ABC", "DE"));
+
+
+function boshStr(str) {
+    return str.length === 0;
+}
+console.log(boshStr(""));
+console.log(boshStr("a"));
+
+
+function bolinsin5(son) {
+    return son %5===0
+}
+console.log(bolinsin5(-59));
+
+function bolinsin100(sonn) {
+    return sonn%100==0
+}
+console.log(bolinsin100(1));
+console.log(bolinsin100(1000));
+
+
+function uzunlik(str) {
+    let sanokk=0
+    for(let i of str){
+        sanokk++
+    }
+    return sanokk;
+}
+console.log(uzunlik("apple"));
+
+
+function bolinsin(x, y) {
+    return x%y===0
+}
+console.log(bolinsin(98, 7));
+
+
+
+
+
+
